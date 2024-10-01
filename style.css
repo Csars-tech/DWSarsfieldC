@@ -30,7 +30,6 @@ header {
 }
 
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: lightgray;
@@ -70,9 +69,6 @@ footer {
     display: none;
 }
 
-.nuestroscursos .carta{
-
-}
 .carta:first-child{
     background-position: center center;
     background-color: rgb(17, 168, 233);
