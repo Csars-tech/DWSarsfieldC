@@ -215,3 +215,42 @@ button{
         margin-bottom: 20px;
     }
 }
+
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0e0e0; /* Fondo gris */
+}
+
+.curso {
+    background-color: #007BFF; /* Azul */
+    color: #ffffff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curso h2 {
+    color: #f0f0f0;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.curso p {
+    font-size: 16px;
+    color: #d0d0d0;
+}
+
+@media (max-width: 768px) {
+    .cursos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curso {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
