@@ -61,13 +61,7 @@ footer {
 
 }
 
-.nuestroscursos .container{
-    padding: 100px 0 px;
-}
 
-.nuestroscursos p{
-    display: none;
-}
 
 .carta:first-child{
     background-position: center center;
@@ -252,5 +246,53 @@ button{
     .curso {
         width: 80%;
         margin-bottom: 20px;
+    }
+}
+
+.sobre-nosotros {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Para ser responsive */
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    color: #555;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Diseño en una columna para pantallas pequeñas */
     }
 }
