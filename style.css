@@ -262,6 +262,7 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
+    animation: fadeInUp 1.2s ease-out;
 }
 
 .grid-container {
@@ -280,6 +281,7 @@ h1 {
 h2 {
     color: #007bff;
     margin-bottom: 10px;
+    animation: fadeInUp 1.2s ease-out; /* Aplicamos la misma animación a los títulos */
 }
 
 p, ul {
@@ -289,6 +291,24 @@ p, ul {
 ul {
     list-style: square;
     margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Diseño en una columna para pantallas pequeñas */
+    }
+}
+
+/* Animaciones para los títulos */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Los títulos aparecen desde abajo */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Aparecen en su lugar natural */
+    }
 }
 
 @media (max-width: 768px) {
