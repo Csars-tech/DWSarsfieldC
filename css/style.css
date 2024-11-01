@@ -20,7 +20,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
-  text-align:left;
+  text-align:right;
 }
 
 .bg-dark {
@@ -29,7 +29,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
-  text-align: left;
+  text-align: right;
 
 }
 
@@ -265,12 +265,12 @@ h1 {
   padding: 0;
   margin: 0;
   display: flex; /* Alinear elementos en fila */
-  text-align: left;
+  text-align: right;
 }
 
 .nav-menu li {
   margin-left: 20px; /* Espaciado entre opciones */
-  text-align: left;
+  text-align: right;
 }
 
 .nav-menu a {
@@ -290,14 +290,14 @@ list-style: none; /* Sin viñetas */
 padding: 0;
 margin: 0;
 display: flex; /* Alinear elementos en fila */
-text-align:left;
+text-align:right;
 }
 
 
 .nav-menu li {
   margin-left: 20px; /* Espaciado entre opciones */
-  text-align: left;
-  justify-content: left
+  text-align: right;
+  justify-content: right
 }
 
 .nav-menu a {
