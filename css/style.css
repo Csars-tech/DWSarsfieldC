@@ -14,6 +14,22 @@
   padding: 0 60 px;
 }
 
+header {
+  background-color: #333; /* Negro claro */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.bg-dark {
+  background-color: #333; /* Negro claro */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -34,6 +50,14 @@ p {
 
 main {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 5%;
 }
 
 .carta:first-child {
@@ -233,31 +257,13 @@ h1 {
   animation: fadeInUp 1.2s ease-out;
 }
 
-
-/* Estilos para el encabezado */
-header {
-    background-color: #333333; /* Negro claro */
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-  width: 25px;
-  float: left;
-  margin-left: 5px;
-  font-weight: bold;
-  font-size: 80px;
-  padding: 0 60 px;
-}
-
 /* Estilos para las opciones de navegación */
 .nav-menu {
     list-style: none; /* Sin viñetas */
     padding: 0;
     margin: 0;
     display: flex; /* Alinear elementos en fila */
+    text-align: right;
 }
 
 .nav-menu li {
@@ -281,27 +287,26 @@ header {
     padding: 0;
     margin: 0;
     display: flex; /* Alinear elementos en fila */
+    text-align: right;
 }
 
 .nav-menu li {
     margin-right: 20px; /* Espaciado entre opciones */
+    text-align: right;
+    justify-content: flex-end
 }
 
 .nav-menu a {
     color: #ffffff; /* Letras en blanco */
     text-decoration: none; /* Sin subrayado */
+    text-align: right;
+    justify-content: flex-end
 }
 
 .nav-menu a:hover {
     color: #dddddd; /* Color de hover */
 }
 
-
-/* Color del encabezado */
-.header {
-    background-color: grey; /* Negro claro */
-    padding: 15px 0;
-}
 /* Opciones de navegación en blanco */
 .nav-link {
     color: #ffffff !important;
@@ -330,11 +335,11 @@ header {
   color: #dddddd; /* Color de hover */
 }
 
-.bg-dark text-white py-3 {
-background-color: grey;
-color: black;
-padding: 4px;
-text-align: right;
+.bg-light-dark {
+  background-color: #333333;
+  padding: 1rem 2rem;
+  width: 100%
+
 }
 
 
