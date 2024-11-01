@@ -234,9 +234,73 @@ h1 {
 }
 
 
-/* Color del encabezado */
+/* Estilos para el encabezado */
 header {
+    background-color: #333333; /* Negro claro */
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  width: 25px;
+  float: left;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 80px;
+  padding: 0 60 px;
+}
+
+/* Estilos para las opciones de navegación */
+.nav-menu {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinear elementos en fila */
+}
+
+.nav-menu li {
+    margin-right: 20px; /* Espaciado entre opciones */
+}
+
+.nav-menu a {
+    color: #ffffff; /* Letras en blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-menu a:hover {
+    color: #dddddd; /* Color de hover */
+}
+
+
+
+/* Estilos para las opciones de navegación */
+.nav-menu {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinear elementos en fila */
+}
+
+.nav-menu li {
+    margin-right: 20px; /* Espaciado entre opciones */
+}
+
+.nav-menu a {
+    color: #ffffff; /* Letras en blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-menu a:hover {
+    color: #dddddd; /* Color de hover */
+}
+
+
+/* Color del encabezado */
+.header {
     background-color: grey; /* Negro claro */
+    padding: 15px 0;
 }
 /* Opciones de navegación en blanco */
 .nav-link {
@@ -247,11 +311,7 @@ header {
     color: #dddddd !important;
 }
 
-/* Estilos para el encabezado */
-.header{
-  background-color: grey; /* Negro claro */
-  padding: 15px 0;
-}
+
 /* Estilos para las opciones de navegación */
 .nav-menu {
   list-style-type: none; /* Sin viñetas */
@@ -389,4 +449,3 @@ ul {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
