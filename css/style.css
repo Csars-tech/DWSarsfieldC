@@ -20,6 +20,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
+  text-align:left;
 }
 
 .bg-dark {
@@ -28,6 +29,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
+  text-align: left;
 
 }
 
@@ -259,61 +261,64 @@ h1 {
 
 /* Estilos para las opciones de navegación */
 .nav-menu {
-    list-style: none; /* Sin viñetas */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Alinear elementos en fila */
-    text-align: right;
+  list-style: none; /* Sin viñetas */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Alinear elementos en fila */
+  text-align: left;
 }
 
 .nav-menu li {
-    margin-right: 20px; /* Espaciado entre opciones */
+  margin-left: 20px; /* Espaciado entre opciones */
+  text-align: left;
 }
 
 .nav-menu a {
-    color: #ffffff; /* Letras en blanco */
-    text-decoration: none; /* Sin subrayado */
+  color: #ffffff; /* Letras en blanco */
+  text-decoration: none; /* Sin subrayado */
+  text-align: left;
 }
 
 .nav-menu a:hover {
-    color: #dddddd; /* Color de hover */
+  color: #dddddd; /* Color de hover */
 }
-
 
 
 /* Estilos para las opciones de navegación */
 .nav-menu {
-    list-style: none; /* Sin viñetas */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Alinear elementos en fila */
-    text-align: right;
+list-style: none; /* Sin viñetas */
+padding: 0;
+margin: 0;
+display: flex; /* Alinear elementos en fila */
+text-align:left;
 }
 
+
 .nav-menu li {
-    margin-right: 20px; /* Espaciado entre opciones */
-    text-align: right;
-    justify-content: flex-end
+  margin-left: 20px; /* Espaciado entre opciones */
+  text-align: left;
+  justify-content: left
 }
 
 .nav-menu a {
-    color: #ffffff; /* Letras en blanco */
-    text-decoration: none; /* Sin subrayado */
-    text-align: right;
-    justify-content: flex-end
+  color: #ffffff; /* Letras en blanco */
+  text-decoration: none; /* Sin subrayado */
+  text-align: left;
+  justify-content:left
 }
 
 .nav-menu a:hover {
-    color: #dddddd; /* Color de hover */
+  color: #dddddd; /* Color de hover */
 }
 
 /* Opciones de navegación en blanco */
 .nav-link {
-    color: #ffffff !important;
+  color: #ffffff !important;
+  justify-content:left
 }
 /* Hover para las opciones de navegación */
 .nav-link:hover {
-    color: #dddddd !important;
+  color: #dddddd !important;
 }
 
 
@@ -322,13 +327,15 @@ h1 {
   list-style-type: none; /* Sin viñetas */
   padding: 0;
   margin: 0;
+  text-align:left;
   display: flex; /* Alinear elementos en fila */
-  justify-content: flex-end; /* Alinear a la derecha */
+
 }
 .nav-menu a {
   color: #ffffff; /* Letras en blanco */
   margin: 0 15px; /* Espaciado entre enlaces */
   text-decoration: none; /* Sin subrayado */
+  text-align: left;
 }
 /* Hover para las opciones de navegación */
 .nav-menu a:hover {
@@ -336,7 +343,7 @@ h1 {
 }
 
 .bg-light-dark {
-  background-color: #333333;
+  background-color: #333;
   padding: 1rem 2rem;
   width: 100%
 
