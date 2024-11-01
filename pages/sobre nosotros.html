@@ -3,91 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberAwa Adventure</title>
+    <title>CyberAware Adventure</title>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/CyberAware-Adventure-Favicon.png" type="image/png">
 </head>
 <body>
-    <header>
-        <img src="../images/CyberAware-Adventure.png" class="logo" alt="Logo de la Empresa">
-        <nav>
-            <ul>
-                <a href="../index.html">Inicio</a>
-                <a href="cursos.html">Cursos</a>
-                <a href="noticias.html">Noticias</a>
-                <a href="sobre nosotros.html">Sobre nosotros</a>
-                <a href="contacto.html">Contacto</a>
-            </ul>
-        </nav>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex align-items-center">
+            <img src="../images/CyberAware-Adventure.png" alt="Logo de la Empresa" class="logo">
+            <nav class="ml-auto">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="sobre nosotros.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <br>
-    <main>
-        <h1>Sobre Nosotros</h1>
-        <img src="../images/sobre nosotros ultima.png" class="imagen" alt="">
-        <br>
-        <br>
+
+    <main class="container mt-5">
+        <h1 class="text-center mb-4">Sobre Nosotros</h1>
+        <div class="text-center mb-4">
+            <img src="../images/sobre nosotros ultima.png" class="imagen" alt="">
+        </div>
+
         <section class="sobre-nosotros">
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h2>En CyberAware Adventure</h2>
-                    <p>
-                        Somos una empresa joven, especializada en ofrecer soluciones integrales de ciberseguridad y concientización de usuarios. 
-                        Nos destacamos por nuestra agilidad y capacidad para adaptarnos a las amenazas digitales emergentes, protegiendo tanto a empresas como a individuos de los riesgos cibernéticos.
-                    </p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>En CyberAware Adventure</h2>
+                            <p>
+                                Somos una empresa joven, especializada en ofrecer soluciones integrales de ciberseguridad y concientización de usuarios. 
+                                Nos destacamos por nuestra agilidad y capacidad para adaptarnos a las amenazas digitales emergentes, protegiendo tanto a empresas como a individuos de los riesgos cibernéticos.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="grid-item">
-                    <h2>Nuestra Misión</h2>
-                    <p>
-                        Nuestra misión es proteger y educar. Creemos que la mejor defensa contra las amenazas cibernéticas comienza con la concientización de los usuarios. 
-                        A través de nuestras soluciones innovadoras y personalizadas, buscamos fortalecer la seguridad digital de nuestros clientes mientras fomentamos una cultura de ciberseguridad proactiva.
-                    </p>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>Nuestra Misión</h2>
+                            <p>
+                                Nuestra misión es proteger y educar. Creemos que la mejor defensa contra las amenazas cibernéticas comienza con la concientización de los usuarios. 
+                                A través de nuestras soluciones innovadoras y personalizadas, buscamos fortalecer la seguridad digital de nuestros clientes mientras fomentamos una cultura de ciberseguridad proactiva.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="grid-item">
-                    <h2>¿Qué Hacemos?</h2>
-                    <ul>
-                        <li>Auditorías de Seguridad: Evaluamos el estado de seguridad de tu empresa para identificar vulnerabilidades.</li>
-                        <li>Programas de Concientización: Desarrollamos capacitaciones interactivas para educar a los usuarios en buenas prácticas de ciberseguridad.</li>
-                        <li>Análisis de Vulnerabilidades: Detectamos fallos en sistemas y redes que puedan ser explotados por atacantes.</li>
-                        <li>Consultoría en Cumplimiento Normativo: Te ayudamos a cumplir con las normativas de seguridad más exigentes, como SOX y PCI-DSS.</li>
-                    </ul>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>¿Qué Hacemos?</h2>
+                            <ul class="list-unstyled">
+                                <li>Auditorías de Seguridad: Evaluamos el estado de seguridad de tu empresa para identificar vulnerabilidades.</li>
+                                <li>Programas de Concientización: Desarrollamos capacitaciones interactivas para educar a los usuarios en buenas prácticas de ciberseguridad.</li>
+                                <li>Análisis de Vulnerabilidades: Detectamos fallos en sistemas y redes que puedan ser explotados por atacantes.</li>
+                                <li>Consultoría en Cumplimiento Normativo: Te ayudamos a cumplir con las normativas de seguridad más exigentes, como SOX y PCI-DSS.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="grid-item">
-                    <h2>¿Por qué Elegirnos?</h2>
-                    <ul>
-                        <li>Experiencia Innovadora: Aunque somos una empresa joven, nuestro equipo está compuesto por expertos con una vasta trayectoria en el campo de la ciberseguridad y concientización.</li>
-                        <li>Experiencia Innovadora: Aunque somos una empresa joven, nuestro equipo está compuesto por expertos con una vasta trayectoria en el campo de la ciberseguridad y concientización.</li>
-                        <li>Soluciones a Medida: Nos adaptamos a las necesidades específicas de cada cliente, garantizando un enfoque personalizado.</li>
-                        <li>Compromiso con la Educación: No solo te protegemos, también te enseñamos a protegerte./li>
-                    </ul>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>¿Por qué Elegirnos?</h2>
+                            <ul class="list-unstyled">
+                                <li>Experiencia Innovadora: Aunque somos una empresa joven, nuestro equipo está compuesto por expertos con una vasta trayectoria en el campo de la ciberseguridad y concientización.</li>
+                                <li>Soluciones a Medida: Nos adaptamos a las necesidades específicas de cada cliente, garantizando un enfoque personalizado.</li>
+                                <li>Compromiso con la Educación: No solo te protegemos, también te enseñamos a protegerte.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="grid-item">
-                    <h2>Nuestros Valores</h2>
-                    <ul>
-                        <li>Innovación: Siempre estamos a la vanguardia de las últimas tendencias y tecnologías en ciberseguridad.</li>
-                        <li>Confianza: Nos comprometemos a generar un entorno seguro y de confianza para nuestros clientes.</li>
-                        <li>Excelencia: Nos esforzamos por brindar soluciones de alta calidad con un enfoque centrado en el cliente.</li>
-                    </ul>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>Nuestros Valores</h2>
+                            <ul class="list-unstyled">
+                                <li>Innovación: Siempre estamos a la vanguardia de las últimas tendencias y tecnologías en ciberseguridad.</li>
+                                <li>Confianza: Nos comprometemos a generar un entorno seguro y de confianza para nuestros clientes.</li>
+                                <li>Excelencia: Nos esforzamos por brindar soluciones de alta calidad con un enfoque centrado en el cliente.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="grid-item">
-                    <h2>Nuestros Clientes</h2>
-                    <p>
-                        Trabajamos con empresas de diferentes sectores, desde pequeñas startups hasta grandes corporaciones. Nuestro enfoque adaptable nos permite ofrecer un servicio de calidad sin importar el tamaño o industria.
-                    </p>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2>Nuestros Clientes</h2>
+                            <p>
+                                Trabajamos con empresas de diferentes sectores, desde pequeñas startups hasta grandes corporaciones. Nuestro enfoque adaptable nos permite ofrecer un servicio de calidad sin importar el tamaño o industria.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <br>
-    <br>
-    <footer>
-        <p>&copy; 2024  Todos los derechos reservados.</p>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-

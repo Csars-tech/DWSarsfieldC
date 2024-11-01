@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberAware Adventure</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/CyberAware-Adventure-Favicon.png" type="image/png">
-    
-
 </head>
 <body>
-    <header>
-        <img src="../images/CyberAware-Adventure.png" class="logo" alt="Logo de la Empresa">
-
-    <title>CyberAware Adventure</title>
-                <a href="../index.html">Inicio</a>
-                <a href="cursos.html">Cursos</a>
-                <a href="noticias.html">Noticias</a>
-                <a href="sobre nosotros.html">Sobre Nosotros</a>
-                <a href="contacto.html">Contacto</a>
-            </ul>
-        </nav>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex align-items-center">
+            <img src="../images/CyberAware-Adventure.png" alt="Logo de la Empresa" class="logo">
+            <nav class="ml-auto">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="sobre nosotros.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <br>
     <main>
+        <br>
         <h1>Nuestros Cursos</h1>
         <br>
         <img src="../images/cursos ciber.png" class="imagen-cursos" alt="">
@@ -32,28 +36,32 @@
         <h3>Conocé más sobre nuestros cursos disponibles</h3>
     </main>
     <br>
-        <section class="cursos">
-            <div class="curso">
-                    <h2>Curso de Ingeniería Social</h2>
-                    <p>Conoce las técnicas utilizadas en ataques de ingeniería social y cómo protegerte.</p>
-                        <button>+Info</button>
-            </div>
-            <div class="curso">
-                    <h2>Curso introductorio sobre PCI-DSS</h2>
-                    <p>Aprende los principios básicos de la normativa PCI-DSS para la seguridad de datos de pago.</p>
-                        <button>+Info</button>
-            </div>
-            <div class="curso">
-                    <h2>Aprendé más sobre Phishing, Ransomware, Malware, entre otros</h2>
-                    <p>Descubre las amenazas cibernéticas más comunes y cómo mitigarlas en tu entorno digital.</p>
-                        <button>+Info</button>
-            </div>
-        </section>
+    <section class="cursos">
+        <div class="curso">
+            <h2>Curso de Ingeniería Social</h2>
+            <p>Conoce las técnicas utilizadas en ataques de ingeniería social y cómo protegerte.</p>
+            <button>+Info</button>
+        </div>
+        <div class="curso">
+            <h2>Curso introductorio sobre PCI-DSS</h2>
+            <p>Aprende los principios básicos de la normativa PCI-DSS para la seguridad de datos de pago.</p>
+            <button>+Info</button>
+        </div>
+        <div class="curso">
+            <h2>Aprendé más sobre Phishing, Ransomware, Malware, entre otros</h2>
+            <p>Descubre las amenazas cibernéticas más comunes y cómo mitigarlas en tu entorno digital.</p>
+            <button>+Info</button>
+        </div>
+    </section>
     <br>
-    
-        <footer>
-            <p>&copy; 2024 Todos los derechos reservados.</p>
-        </footer>
-        
-    </body>
-    </html>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

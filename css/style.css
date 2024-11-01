@@ -14,12 +14,6 @@
   padding: 0 60 px;
 }
 
-header {
-  background-color: grey;
-  color: black;
-  padding: 4px;
-  text-align: right;
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -75,7 +69,7 @@ button {
   height: 30%;
 }
 
-.imagen-noticias {
+.imagen-noticias{
   width: 30%;
   height: 30%;
 }
@@ -238,6 +232,51 @@ h1 {
   color: #333;
   animation: fadeInUp 1.2s ease-out;
 }
+
+
+/* Color del encabezado */
+header {
+    background-color: grey; /* Negro claro */
+}
+/* Opciones de navegación en blanco */
+.nav-link {
+    color: #ffffff !important;
+}
+/* Hover para las opciones de navegación */
+.nav-link:hover {
+    color: #dddddd !important;
+}
+
+/* Estilos para el encabezado */
+.header{
+  background-color: grey; /* Negro claro */
+  padding: 15px 0;
+}
+/* Estilos para las opciones de navegación */
+.nav-menu {
+  list-style-type: none; /* Sin viñetas */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Alinear elementos en fila */
+  justify-content: flex-end; /* Alinear a la derecha */
+}
+.nav-menu a {
+  color: #ffffff; /* Letras en blanco */
+  margin: 0 15px; /* Espaciado entre enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+/* Hover para las opciones de navegación */
+.nav-menu a:hover {
+  color: #dddddd; /* Color de hover */
+}
+
+.bg-dark text-white py-3 {
+background-color: grey;
+color: black;
+padding: 4px;
+text-align: right;
+}
+
 
 .grid-container {
   display: grid;

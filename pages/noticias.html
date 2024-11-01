@@ -5,24 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberAware Adventure</title>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/CyberAware-Adventure-Favicon.png" type="image/png">
+
+
 </head>
 <body>
-    <header>
-        <img src="../images/CyberAware-Adventure.png" class="logo" alt="Logo de la Empresa">
-        <nav>
-            <ul>
-                <a href="../index.html">Inicio</a>
-                <a href="cursos.html">Cursos</a>
-                <a href="noticias.html">Noticias</a>
-                <a href="sobre nosotros.html">Sobre Nosotros</a>
-                <a href="contacto.html">Contacto</a>
-            </ul>
-        </nav>
+
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <img src="../images/CyberAware-Adventure.png" alt="Logo de la Empresa" class="logo">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre nosotros.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <br>
+
+    <!-- Main Content -->
     <main>
+        <br>
+        <br>
         <h1>Noticias</h1>
         <br>
         <img src="../images/ultimas noticias.jpg" class="imagen-noticias" alt="">
@@ -33,30 +44,31 @@
 
         <section class="noticias">
             <div class="noticia">
-                    <h2>Argentina recibió más de 260 millones de intentos de ataque en lo que va de 2024</h2>
-                    <p>Conocé más de los ciberataques en el país</p>
-                        <button>+Info</button>
+                <h2>Argentina recibió más de 260 millones de intentos de ataque en lo que va de 2024</h2>
+                <p>Conocé más de los ciberataques en el país</p>
+                <button>+Info</button>
             </div>
-                    <br>
+            <br>
             <div class="noticia">
-                        <h2>El Programa de Atención Médica Integral (PAMI) sufrió un ciberataque de Ransomware</h2>
-                        <p>La importancia de invertir en Ciberseguridad</p>
-                        <button>+Info</button>
+                <h2>El Programa de Atención Médica Integral (PAMI) sufrió un ciberataque de Ransomware</h2>
+                <p>La importancia de invertir en Ciberseguridad</p>
+                <button>+Info</button>
             </div>
-                    <br>
+            <br>
             <div class="noticia">
-                        <h2>Conocé más sobre el incidente que sufrió la herramienta de Ciberseguridad Crowdstrike</h2>
-                        <p>El inciente que afectó a usuarios de todo el mundo durante varias horas</p>
-                        <button>+Info</button>
+                <h2>Conocé más sobre el incidente que sufrió la herramienta de Ciberseguridad Crowdstrike</h2>
+                <p>El incidente que afectó a usuarios de todo el mundo durante varias horas</p>
+                <button>+Info</button>
             </div>
-
         </section>
         <br>
-    
-        <footer>
-            <p>&copy; 2024 Todos los derechos reservados.</p>
-        </footer>
-        
-    </body>
-    </html>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3" >
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
